@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    color: antiquewhite;
+    position: relative;
+    top: 20px;
+    margin: auto;
+    font-size: 60px;
+    font-family: 'Bungee Shade', cursive;
+}
+
+.top {
+    background-image: url('city%20buildings%20night.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 620px;
+}
+
+.bottom {
+    background-image: url('blurred%20lights%20city.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 620px;
+}
+
+.middle {
+    background-image: url('sparks.jpg');
+    background-size: cover;
+    width: 100%; 
+    height: 620px;
+}
+
+#skills {
+    padding: 15px;
+    width: 45%;
+    color: #242220;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 125px auto 0px auto;
+    background-color: antiquewhite;
+}
+
+.social {
+    position: relative;
+    top: 150px;;
+}
+
+.btn-primary {
+    width: 106px;
+}
