@@ -49,3 +49,8 @@ h1 {
 .btn-primary {
     width: 106px;
 }
+
+.example img {
+    width:550px;
+    height: 300px;
+}
