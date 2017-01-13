@@ -3,12 +3,15 @@ body {
 }
 
 h1 {
-    color: antiquewhite;
     position: relative;
     top: 20px;
     margin: auto;
     font-size: 60px;
+}
+
+h1, h2 {
     font-family: 'Bungee Shade', cursive;
+    color: antiquewhite;
 }
 
 .top {
@@ -51,6 +54,11 @@ h1 {
 }
 
 .example img {
-    width:550px;
-    height: 300px;
+    width:400px;
+    height: 200px;
+}
+
+h2 {
+    padding: 48px;
+    font-size: 48px;
 }
