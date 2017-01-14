@@ -4,7 +4,7 @@ body {
 
 h1 {
     position: relative;
-    top: 20px;
+    top: 50px;
     margin: auto;
     font-size: 60px;
 }
@@ -32,16 +32,22 @@ h1, h2 {
     background-image: url('sparks.jpg');
     background-size: cover;
     width: 100%; 
-    height: 620px;
+/*    height: 620px;*/
+}
+
+#skillsection {
+    padding: 5px;
 }
 
 #skills {
     padding: 15px;
-    width: 45%;
+    width: 35%;
     color: #242220;
     font-family: 'Ubuntu', sans-serif;
     margin: 125px auto 0px auto;
     background-color: antiquewhite;
+    position: relative;
+    top: 15px;
 }
 
 .social {
@@ -53,9 +59,15 @@ h1, h2 {
     width: 106px;
 }
 
-.example img {
-    width:400px;
-    height: 200px;
+.middle img {
+    width: 550px;
+    height: 350px;
+    padding: 30px;
+/*    margin: 0 auto;*/
+}
+
+.middle .col {
+    float: none;
 }
 
 h2 {
