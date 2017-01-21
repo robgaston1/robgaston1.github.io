@@ -19,14 +19,14 @@ h1, h2 {
     background-image: url('city%20buildings%20night.jpg');
     background-size: cover;
     width: 100%;
-    height: 620px;
+/*    height: 620px;*/
 }
 
 .bottom {
     background-image: url('sparks.jpg');
     background-size: cover;
     width: 100%;
-    height: 620px;
+    height: 300px;
     color:antiquewhite;
 }
 
@@ -34,7 +34,6 @@ h1, h2 {
     background-image: url('blurred%20lights%20city.jpg');
     background-size: cover;
     width: 100%; 
-/*    height: 620px;*/
 }
 
 #skillsection {
