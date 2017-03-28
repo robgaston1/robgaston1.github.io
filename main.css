@@ -55,6 +55,11 @@ h1, h2 {
     padding: 15px;
 }
 
+.social button {
+    margin: 5px;
+    width: 60%;
+}
+
 .btn-primary {
 /*        width: 106px;*/
 }
@@ -85,7 +90,7 @@ h2 {
     border-radius: 50%;
     border-color: #663d00;
     position: relative;
-    top:40%; 
+    top:30%; 
     font-family: 'Ubuntu', sans-serif;
     font-size: 24px;
 }
