@@ -16,22 +16,22 @@ h1, h2 {
 }
 
 .top {
-    background-image: url('city%20buildings%20night.jpg');
+    background-image: url('./images/city%20buildings%20night.jpg');
     background-size: cover;
     width: 100%;
 /*    height: 620px;*/
 }
 
 .bottom {
-    background-image: url('sparks.jpg');
+    background-image: url('./images/sparks.jpg');
     background-size: cover;
     width: 100%;
-    height: 300px;
+    height: 400px;
     color:antiquewhite;
 }
 
 .middle {
-    background-image: url('blurred%20lights%20city.jpg');
+    background-image: url('./images/blurred%20lights%20city.jpg');
     background-size: cover;
     width: 100%; 
 }
@@ -45,10 +45,16 @@ h1, h2 {
     width: 35%;
     color: white;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
     margin: 75px auto 0px auto;
     background-color: rgba(3,60,100,0.75);
     position: relative;
     top: 5px;
+    list-style: none;
+}
+
+#skills li {
+    display: inline;
 }
 
 .social {
@@ -57,7 +63,6 @@ h1, h2 {
 
 .social button {
     margin: 5px;
-    width: 60%;
 }
 
 .btn-primary {
@@ -83,7 +88,7 @@ h2 {
     background: rgba(230, 194, 42, 0.75);
     color: black; 
     text-align: center;
-    width: 60%;
+    width: 70vw;
     margin: 75px auto auto auto;
     border-style: solid;
     border-width: 5px;
