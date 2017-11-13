@@ -11,15 +11,14 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
     <title>Rob Gaston Portfolio</title>
 
 </head>
 
 <body>
-    <div class='container-fluid'>
-
+    <div class="container">
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#top">Rob's Portfolio Page</a>
@@ -30,14 +29,14 @@
                 <li><a href="#contactsection">Contact Me</a></li>
             </ul>
         </nav>
-        <div class='top'>
+        <div class='top rounded'>
             <div class="row">
                 <div class="col-sm-6 col-xs-12 headline">
                     <h1>Rob Gaston</h1>
                     <p class="subtitle">Front End Web Developer</p>
                 </div>
                 <div class="col-sm-6 col-xs-12" id="skillsection">
-                    <ul id="skills" class="info-text">
+                    <ul id="skills" class="skills-text">
                         <li>
                             <i class="devicon-html5-plain-wordmark"></i>
                             <p>HTML5</p>
@@ -62,6 +61,11 @@
                             <i class="devicon-react-original"></i>
                             <p>React</p>
                         </li>
+
+                        <li>
+                            <i class="devicon-vuejs-plain-wordmark"></i>
+                            <p>Vue.js</p>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -78,68 +82,92 @@
             </div>
         </div>
 
-        <div class='middle'>
+        <div class='middle rounded'>
             <div id="sample">
-                <h2>Sample Work</h2>
-                <p class="subtitle">Click the images to visit the sites.</p>
+                <h2 class="text-center">Sample Work</h2>
             </div>
             <div class="row">
-                <div class="col-md-6 col-xs-12 text-center">
-                    <a href="http://gaston-game-of-life.herokuapp.com/" alt="Game of Life" target="blank">
-                        <p class="subtitle">Game of Life</p>
-                        <p class="info-text">Example of React and Heroku</p>
-                        <img class="img-responsive center-block" src="./images/Game%20of%20Life%20Screenshot.png"></a>
+                <div class="col-md-6 col-xs-12 card">
+                    <a href="https://open-indy.github.io/Koa11y/" alt="Koa11y" target="blank">
+                        <div>
+                            <p class="subtitle">Koa11y</p>
+                            <div class="sample-image"><img src="images/koa11y.png"></div>
+                        </div>
+                    </a>
+                    <div class="info-text">
+                        <p class="sample-heading">Description:</p>
+                        <p>Koa11y is a desktop application that is used to assess compliance with accessibility standards on a website</p>
+                        <p class="sample-heading">Contributions:</p>
+                        <p>Enhanced features and added functionality specific to the Mac OS. Refactored the code base into modules to improve maintainability and readability. Implementing a new API engine(aXe) to perform the accessibility audits. </p>
+                        <p class="sample-heading">Technologies:</p>
+                        <p>Vue, PhantomJS, Node, npm, GitHub, FS-Extra, aXe, pa11y</p>
+                    </div>
                 </div>
-                <div class="col-md-6 col-xs-12">
-                    <a href="https://codepen.io/robgaston/full/xqGmmM/" alt="Camp Leaderboard" target="blank">
-                        <p class="subtitle">FreeCodeCamp Forum Leaderboard</p>
-                        <p class="info-text">Example of React and an API call</p>
-                        <img class="img-responsive center-block" src="./images/Camp%20Leaderboard.png"></a>
+                <div class="col-md-6 col-xs-12 card">
+                    <a href="https://www.spryscience.com/" alt="Spry Science" target="blank">
+                        <div>
+                            <p class="subtitle">Spry Science</p>
+                            <div class="sample-image"><img src="images/spry.png"></div>
+                        </div>
+                    </a>
+                    <div class="info-text">
+                        <p class="sample-heading">Description:</p>
+                        <p>Spry Science is a web application that consumes data from the Clinical Trials government API. The data is stored and made searchable by customers who can log in to an account and perform customized searches. </p>
+                        <p class="sample-heading">Contributions:</p>
+                        <p>Originally a 100% Ruby on Rails project, I rebuilt the front end in React, adding new sign in functionality and a sign up modal, integrating the React front end with the Rails server API. Installed HighCharts.js to render graphical data. </p>
+                        <p class="sample-heading">Technologies:</p>
+                        <p>React, React-Bootstrap, Ruby on Rails, Postgres, HighCharts.js, Superagent, npm, GitHub, Heroku</p>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-xs-12 text-center">
-                    <a href="https://robgaston1.github.io/Simon/" alt="Simon Game" target="blank">
-                        <p class="subtitle">Simon Game</p>
-                        <p class="info-text">Example of CSS to style game, Javascript and JQuery</p>
-                        <img class="img-responsive center-block" src="./images/Simon%20Image.png"></a>
-                </div>
-                <div class="col-md-6 col-xs-12">
-                    <a href="https://codepen.io/robgaston/full/pNVYGL/" alt="Tic Tac Toe Game" target="blank">
-                        <p class="subtitle">Tic Tac Toe</p>
-                        <p class="info-text">Example of Bootstrap, JQuery, and Javascript</p>
-                        <img class="img-responsive center-block" src="./images/TicTacToe.png"></a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-xs-12">
-                    <a href="https://codepen.io/robgaston/full/VKGOYV/" alt="Wikipedia Search Tool" target="blank">
-                        <p class="subtitle">Wikipedia</p>
-                        <p class="info-text">Example of an API call</p>
-                        <img class="img-responsive center-block" src="./images/Wikipedia.png"></a>
-                </div>
-                <div class="col-md-6 col-xs-12">
-                    <a href="https://codepen.io/robgaston/full/rWyvwE/" alt="Pomodoro Timer" target="blank">
-                        <p class="subtitle">Pomodoro</p>
-                        <p class="info-text">Example of Javascript and JQuery</p>
-                        <img class="img-responsive center-block" src="./images/Pomodoro.png"></a>
+                <div class="row">
+                    <div class="col-md-6 col-xs-12 card">
+                        <a href="http://gaston-game-of-life.herokuapp.com/" alt="Game of Life" target="blank">
+                            <div>
+                                <p class="subtitle">Game of Life</p>
+                                <div class="sample-image"><img class="resized-img" src="images/Game%20of%20Life%20Screenshot.png"></div>
+                            </div>
+                        </a>
+                        <div class="info-text">
+                            <p class="sample-heading">Description:</p>
+                            <p>Game of Life uses React in combination with Redux. It represents John Conway's model of the life and death of organisms. </p>
+                            <p class="sample-heading">Contributions:</p>
+                            <p>Originally a React only project, I used this opportunity to learn Redux for all state management, which simplified the code and increased maintainability. The project is hosted on Heroku. Webpack-dev-server was used in the development process.</p>
+                            <p class="sample-heading">Technologies:</p>
+                            <p>React, Redux, npm, Heroku, Webpack, Babel, ES6 </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12 card">
+                        <a href="https://robgaston1.github.io/Simon/" alt="Simon" target="blank">
+                            <div>
+                                <p class="subtitle">Simon</p>
+                                <div class="sample-image"><img class="resized-img" src="images/simon2.png"></div>
+                            </div>
+                        </a>
+                        <div class="info-text">
+                            <p class="sample-heading">Description:</p>
+                            <p>This is a replica of the original Simon game. The styling and logic were all built from scratch.</p>
+                            <p class="sample-heading">Contributions:</p>
+                            <p>This project is an example of using CSS to create the Simon image on the screen. There were also several challenges to implement functionality using Javascript and JQuery, such as an on/off button, resetting the game, and changing to a special "strict" mode, all triggered through click events. </p>
+                            <p class="sample-heading">Technologies:</p>
+                            <p>HTML, CSS, JQuery, Javascript</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class='bottom' id='contactsection'>
-            <h2>Contact</h2>
-            <div id='contact'>
+            <div class='bottom rounded' id='contactsection'>
+                <h2 class="text-center">Contact</h2>
+                <div id='contact'>
 
-                <address>
+                    <address>
                         <a href="mailto:rob@robgaston.net">Rob Gaston</a><br> 
                         Indianapolis, IN<br>
                         317.363.4625<br>
                 </address>
+                </div>
             </div>
         </div>
-    </div>
-
 
 </body>
 
